@@ -20,44 +20,24 @@ const Button = ({ children, className = "", ...props }) => (
 export default function Portfolio() {
   const projects = [
     {
-      name: "Islamic App",
+      name: "Voltify",
       description:
-        "A comprehensive spiritual companion built with Flutter and Clean Architecture. Features real-time GPS-based prayer times, full Quran browsing, and offline Adhkar/Tasbih. Implements BLoC/Cubit for state management, Hive for local NoSQL storage, and automated local notifications for prayer alerts.",
-      github: "https://github.com/manarghareeb/Islamic-App",
+        "Developed a smart energy monitoring mobile application using Flutter, enabling real-time tracking and analysis of household electricity consumption at the device level. Leveraged a Random Forest Machine Learning model to generate intelligent, data-driven recommendations for reducing energy usage and costs. Engineered scalable RESTful APIs (Flask ML service and Node.js backend) for real-time data processing and predictions, while ensuring secure authentication and storage with Firebase. Designed a clean, user-centric UI/UX featuring device and room management, consumption history, and an interactive insights dashboard to enhance user decision-making.",
+      github: "https://github.com/manarghareeb/Voltify",
       images: [
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998770/WhatsApp_Image_2026-04-01_at_00.20.51_ravepg.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998769/WhatsApp_Image_2026-04-01_at_00.20.51_1_gjukby.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998769/WhatsApp_Image_2026-04-01_at_00.20.51_2_p9xhsm.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998771/WhatsApp_Image_2026-04-01_at_00.20.52_eux98d.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998772/WhatsApp_Image_2026-04-01_at_00.20.52_1_irbszz.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998772/WhatsApp_Image_2026-04-01_at_00.20.52_2_sah0hi.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998735/WhatsApp_Image_2026-04-01_at_00.20.53_1_uk4ekz.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998736/WhatsApp_Image_2026-04-01_at_00.20.53_2_td1que.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998736/WhatsApp_Image_2026-04-01_at_00.20.53_y03u7b.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998769/WhatsApp_Image_2026-04-01_at_00.20.55_kws9yi.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998764/WhatsApp_Image_2026-04-01_at_00.20.54_qojjup.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998756/WhatsApp_Image_2026-04-01_at_00.20.54_1_zpbspw.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998757/WhatsApp_Image_2026-04-01_at_00.20.54_2_trit7e.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1778255331/splash_cfq6cb.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1778256478/onboarding_2_pqhh7k.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1778256687/your_home_dht9je.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1778256478/choose_devices_m43lz6.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1778257165/sign_in_kbhvre.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1778256856/home_ytpa6s.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1778257026/energy_kzrp5c.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1778257025/devices_ubeg2l.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1778257314/rooms_zmob9k.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1778257350/delete_device_avslrs.jpg",
       ],
       video:
-        "https://res.cloudinary.com/djbw229ze/video/upload/v1774998840/Islami-Demo_dneg8m.mp4",
-    },
-    {
-      name: "Fruit Market",
-      description:
-        "A production-ready e-commerce platform built with Flutter and Clean Architecture. Features a multi-step checkout flow, real-time order tracking, and a persistent SQLite-based shopping cart. Implements dual push notifications (FCM & OneSignal), secure token storage, and a fully responsive UI that adapts to mobile, tablet, and landscape modes.",
-      github: "https://github.com/manarghareeb/Fruits-App",
-      images: [
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014205/WhatsApp_Image_2026-04-01_at_05.03.29_onhvfj.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014609/WhatsApp_Image_2026-04-01_at_05.36.17_mxhzrc.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014365/WhatsApp_Image_2026-04-01_at_05.03.28_2_ctg6gj.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014363/WhatsApp_Image_2026-04-01_at_05.03.27_3_goupyl.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014362/WhatsApp_Image_2026-04-01_at_05.03.27_2_dptsz5.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014247/WhatsApp_Image_2026-04-01_at_05.03.26_yqgnzz.jpg",
-        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014361/WhatsApp_Image_2026-04-01_at_05.03.27_1_j05szg.jpg",
-      ],
-      video:
-        "https://res.cloudinary.com/djbw229ze/video/upload/v1775020615/FruitApp-Demo_qiwyp5.mp4",
+        "https://res.cloudinary.com/djbw229ze/video/upload/v1777821313/Voltify_nejbyr.mp4",
     },
     {
       name: "Plant Disease Detection",
@@ -79,6 +59,23 @@ export default function Portfolio() {
         "https://res.cloudinary.com/djbw229ze/video/upload/v1775012730/Plant-Demo_hkn1jl.mp4",
     },
     {
+      name: "Fruit Market",
+      description:
+        "A production-ready e-commerce platform built with Flutter and Clean Architecture. Features a multi-step checkout flow, real-time order tracking, and a persistent SQLite-based shopping cart. Implements dual push notifications (FCM & OneSignal), secure token storage, and a fully responsive UI that adapts to mobile, tablet, and landscape modes.",
+      github: "https://github.com/manarghareeb/Fruits-App",
+      images: [
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014205/WhatsApp_Image_2026-04-01_at_05.03.29_onhvfj.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014609/WhatsApp_Image_2026-04-01_at_05.36.17_mxhzrc.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014365/WhatsApp_Image_2026-04-01_at_05.03.28_2_ctg6gj.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014363/WhatsApp_Image_2026-04-01_at_05.03.27_3_goupyl.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014362/WhatsApp_Image_2026-04-01_at_05.03.27_2_dptsz5.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014247/WhatsApp_Image_2026-04-01_at_05.03.26_yqgnzz.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1775014361/WhatsApp_Image_2026-04-01_at_05.03.27_1_j05szg.jpg",
+      ],
+      video:
+        "https://res.cloudinary.com/djbw229ze/video/upload/v1775020615/FruitApp-Demo_qiwyp5.mp4",
+    },
+    {
       name: "Maps App",
       description:
         "A high-performance mapping solution built with Flutter and Clean Architecture. It delivers a Google Maps-like experience using zero paid APIs—leveraging OpenStreetMap, Nominatim, and OSRM. Features include real-time GPS tracking, road-following routing, and reverse geocoding, all managed via a robust dual-Cubit BLoC architecture.",
@@ -92,6 +89,29 @@ export default function Portfolio() {
       ],
       video:
         "https://res.cloudinary.com/djbw229ze/video/upload/v1775012136/Maps-Demo_hvxg9t.mp4",
+    },
+    {
+      name: "Islamic App",
+      description:
+        "A comprehensive spiritual companion built with Flutter and Clean Architecture. Features real-time GPS-based prayer times, full Quran browsing, and offline Adhkar/Tasbih. Implements BLoC/Cubit for state management, Hive for local NoSQL storage, and automated local notifications for prayer alerts.",
+      github: "https://github.com/manarghareeb/Islamic-App",
+      images: [
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998770/WhatsApp_Image_2026-04-01_at_00.20.51_ravepg.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998769/WhatsApp_Image_2026-04-01_at_00.20.51_1_gjukby.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998769/WhatsApp_Image_2026-04-01_at_00.20.51_2_p9xhsm.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998771/WhatsApp_Image_2026-04-01_at_00.20.52_eux98d.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998772/WhatsApp_Image_2026-04-01_at_00.20.52_1_irbszz.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998772/WhatsApp_Image_2026-04-01_at_00.20.52_2_sah0hi.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998735/WhatsApp_Image_2026-04-01_at_00.20.53_1_uk4ekz.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998736/WhatsApp_Image_2026-04-01_at_00.20.53_2_td1que.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998736/WhatsApp_Image_2026-04-01_at_00.20.53_y03u7b.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998769/WhatsApp_Image_2026-04-01_at_00.20.55_kws9yi.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998764/WhatsApp_Image_2026-04-01_at_00.20.54_qojjup.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998756/WhatsApp_Image_2026-04-01_at_00.20.54_1_zpbspw.jpg",
+        "https://res.cloudinary.com/djbw229ze/image/upload/v1774998757/WhatsApp_Image_2026-04-01_at_00.20.54_2_trit7e.jpg",
+      ],
+      video:
+        "https://res.cloudinary.com/djbw229ze/video/upload/v1774998840/Islami-Demo_dneg8m.mp4",
     },
   ];
 
@@ -128,7 +148,7 @@ export default function Portfolio() {
             </a>
 
             <a
-              href="https://drive.google.com/file/d/14PDNUjEWLiRHfGoFgmhBVI0D0vYos7kb/view"
+              href="https://drive.google.com/file/d/1JV23RmHYhamRSUy91HZ83tjIMebkp0q7/view"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -169,7 +189,7 @@ export default function Portfolio() {
           <Card className="rounded-2xl shadow-lg hover:shadow-xl transition">
             <CardContent className="p-6">
               <h3 className="text-xl font-semibold">Flutter Developer</h3>
-              <p className="text-black/70">PureSoft • Feb 2026 - Present</p>
+              <p className="text-black/70">PureSoft • Feb 2026 - April 2026</p>
               <p className="text-sm text-black/60">
                 Shebin El Kom, Al Minufiyah, Egypt · OnSite
               </p>
